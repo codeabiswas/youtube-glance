@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Glance",
+  "description": "Automatically retrieves and displays YouTube video titles, view counts, durations, and like numbers when hovering over YouTube links on external websites.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "source.html",
+    "default_icon": "images/ext_icon.png"
+  }
+}
