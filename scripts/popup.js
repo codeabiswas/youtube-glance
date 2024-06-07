@@ -1,13 +1,7 @@
-// // console.log("Hello world! This is a popup");
-
-// document.onmouseenter = function (e) {
-//   console.log("hit something!");
-// };
-
 // Select all the links on the page
 var links = document.querySelectorAll("a");
 var youtubeLinks = Array.from(links).filter((link) =>
-  link.href.includes("youtube")
+  link.href.includes("youtube.com/watch?v=")
 );
 
 // Add an event listener to each link
