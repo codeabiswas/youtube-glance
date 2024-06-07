@@ -11,7 +11,13 @@
     {
       "matches": ["<all_urls>"],
       "exclude_matches": ["https://*.youtube.com/"],
-      "js": ["scripts/popup.js"]
+      "js": ["scripts/source.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["secrets.json"],
+      "matches": ["https://*/*"]
     }
   ]
 }
